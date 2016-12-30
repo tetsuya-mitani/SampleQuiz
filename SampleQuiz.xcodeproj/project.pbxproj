@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		680168C41E16AEE200F40E70 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 680168C31E16AEE200F40E70 /* AudioToolbox.framework */; };
+		680168C61E16B1C600F40E70 /* small-bell02.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 680168C51E16B1C600F40E70 /* small-bell02.mp3 */; };
 		680C6CCF1E149DA7005EBC4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680C6CCE1E149DA7005EBC4C /* AppDelegate.swift */; };
 		680C6CD11E149DA7005EBC4C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680C6CD01E149DA7005EBC4C /* ViewController.swift */; };
 		680C6CD41E149DA7005EBC4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 680C6CD21E149DA7005EBC4C /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		680168C31E16AEE200F40E70 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		680168C51E16B1C600F40E70 /* small-bell02.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "small-bell02.mp3"; sourceTree = "<group>"; };
 		680C6CCB1E149DA7005EBC4C /* SampleQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		680C6CCE1E149DA7005EBC4C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		680C6CD01E149DA7005EBC4C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -29,17 +33,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				680168C41E16AEE200F40E70 /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		680168C21E16AEE200F40E70 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				680168C31E16AEE200F40E70 /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		680C6CC21E149DA6005EBC4C = {
 			isa = PBXGroup;
 			children = (
 				680C6CCD1E149DA7005EBC4C /* SampleQuiz */,
 				680C6CCC1E149DA7005EBC4C /* Products */,
+				680168C21E16AEE200F40E70 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +68,7 @@
 		680C6CCD1E149DA7005EBC4C /* SampleQuiz */ = {
 			isa = PBXGroup;
 			children = (
+				680168C51E16B1C600F40E70 /* small-bell02.mp3 */,
 				680C6CCE1E149DA7005EBC4C /* AppDelegate.swift */,
 				680C6CD01E149DA7005EBC4C /* ViewController.swift */,
 				680C6CD21E149DA7005EBC4C /* Main.storyboard */,
@@ -125,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				680C6CD91E149DA7005EBC4C /* LaunchScreen.storyboard in Resources */,
+				680168C61E16B1C600F40E70 /* small-bell02.mp3 in Resources */,
 				680C6CD61E149DA7005EBC4C /* Assets.xcassets in Resources */,
 				680C6CD41E149DA7005EBC4C /* Main.storyboard in Resources */,
 			);
@@ -300,6 +316,7 @@
 				680C6CDF1E149DA7005EBC4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
